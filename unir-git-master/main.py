@@ -10,7 +10,7 @@ DEFAULT_FILENAME = "words.txt"
 DEFAULT_DUPLICATES = False
 
 
-def sort_list(items, ascending=True,1):
+def sort_list(items, ascending=True,ascending):
     if not isinstance(items, list):
         raise RuntimeError(f"cannot be ordered {type(items)}")
 
